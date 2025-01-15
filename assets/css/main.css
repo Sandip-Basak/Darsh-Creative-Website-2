@@ -321,7 +321,8 @@ h6 {
   right: 15px;
   bottom: -15px;
   z-index: 99999;
-  background-color: var(--accent-color);
+  /* background-color: var(--accent-color); */
+  background: linear-gradient(-30deg, transparent, var(--nav-hover-color), transparent);
   width: 44px;
   height: 44px;
   border-radius: 50px;
